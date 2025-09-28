@@ -1,2 +1,5 @@
 # persistence-get-winevent
-***persistence_get_win_event.ps1: Uses the get-winevent cmdlet to query several persistence mechanisms a threat actor can use on a windows host.
+***Uses the get-winevent cmdlet to query windows events of several persistence mechanisms a threat actor can use on a windows host. 
+***Events queried include scheduled task creation (106 and sec 4698 events), user manipulation, group manipulation, service creation and wmi binds.
+***Also checks if logs were cleared.
+***Creates a file named "persistence_check.txt" in system drive.
