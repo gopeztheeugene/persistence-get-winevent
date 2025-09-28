@@ -4,3 +4,5 @@ Uses the get-winevent cmdlet to query windows events of several persistence mech
 ***Also checks if logs were cleared.
 
 ***Creates a file named "persistence_check.txt" in system drive.
+
+***Includes a b64 encoded one liner(incase you can run lines with no character limits).
